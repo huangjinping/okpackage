@@ -11,7 +11,7 @@ import os
 def run():
     root = Path(__file__).resolve().parent
     load_env_config(root)
-    apk = root / "res" / "571.apk"
+    apk = root / "res" / os.environ.get("APK_PATH")
     if not apk.exists():
         print(str(apk) + " 不存在")
         sys.exit(1)

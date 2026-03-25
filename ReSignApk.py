@@ -29,7 +29,7 @@ def resolve_input_apk(root: Path) -> Path:
         if not p.is_absolute():
             p = (root / p).resolve()
         return p
-    return root / "res" / "app-release.apk"
+    return root / "res" / os.environ.get("APK_PATH")
 
 
 def resign_apk(in_apk: Path, root: Path) -> Path:
@@ -74,7 +74,7 @@ def resign_apk(in_apk: Path, root: Path) -> Path:
 def resolve_keystore_config(root: Path):
     jks_rel = os.environ.get("JKS_PATH")
     if not jks_rel:
-        candidate = root / "res" / "plataYA.jks"
+        candidate = root / "res" / os.environ.get("JKS_PATH")
         if candidate.exists():
             jks_rel = "plataYA.jks"
         else:
@@ -184,7 +184,7 @@ def print_keystore_info(root: Path):
         stop = pem.find(end)
         pem_cert = pem
         if start != -1 and stop != -1:
-            pem_cert = pem[start : stop + len(end)]
+            pem_cert = pem[start: stop + len(end)]
         der = ssl.PEM_cert_to_DER_cert(pem_cert)
         sha1 = hashlib.sha1(der).hexdigest()
         md5 = hashlib.md5(der).hexdigest()

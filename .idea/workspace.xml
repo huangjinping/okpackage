@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3454e492-d59f-41b0-8af8-2c39c18b36a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReSignApk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoveGooleLecs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.okapk.env" beforeDir="false" afterPath="$PROJECT_DIR$/.okapk.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReSignApk.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReSignApk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packetcaptureApk.py" beforeDir="false" afterPath="$PROJECT_DIR$/packetcaptureApk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ReSignApk">
+  <component name="RunManager" selected="Python.packetcaptureApk">
     <configuration name="ReSignApk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="okpackage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ReSignApk" />
         <item itemvalue="Python.packetcaptureApk" />
+        <item itemvalue="Python.ReSignApk" />
         <item itemvalue="Python.okapk" />
       </list>
     </recent_temporary>
@@ -140,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774423721140</updated>
       <workItem from="1774423726083" duration="6796000" />
-      <workItem from="1774435663359" duration="1377000" />
+      <workItem from="1774435663359" duration="2618000" />
     </task>
     <servers />
   </component>
@@ -161,7 +164,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/okpackage$main.coverage" NAME="main Coverage Results" MODIFIED="1774423729509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/okpackage$okapk.coverage" NAME="okapk Coverage Results" MODIFIED="1774435210193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/okpackage$packetcaptureApk.coverage" NAME="packetcaptureApk Coverage Results" MODIFIED="1774436149791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/okpackage$ReSignApk.coverage" NAME="ReSignApk Coverage Results" MODIFIED="1774436798484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/okpackage$packetcaptureApk.coverage" NAME="packetcaptureApk Coverage Results" MODIFIED="1774438083414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/okpackage$ReSignApk.coverage" NAME="ReSignApk Coverage Results" MODIFIED="1774437644645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
