@@ -1,0 +1,8 @@
+# Files and directories created by pub
+
+# Conventional directory for build outputs
+dist/
+out/
+res/
+
+
